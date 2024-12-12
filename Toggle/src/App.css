@@ -1,0 +1,34 @@
+.toggle_container{
+  width: 100px;
+  margin: 10rem auto;
+  border-radius: 50px;
+  background: gray;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.toggle_switch {
+  width:40px;
+  height:40px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgba(255, 255, 255, 0.62);
+  transition: 0.5s;
+}
+
+span {
+  color: white;
+}
+
+.on {
+  background-color: #4caf50;
+  transform: translateX(55px);
+}
+
+.off {
+  background-color: #f44336;
+  transform: translateX(0);
+}
